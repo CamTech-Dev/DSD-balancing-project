@@ -171,6 +171,16 @@ Ball-Beam-FPGA/
 └── README.md
 ```
 
+## Results
+
+## Results
+
+The completed system was able to keep the ball near the center of the beam using ultrasonic distance feedback and proportional control.
+
+As the controller was tuned for finer corrections, the servo made smaller adjustments and gradually moved the ball toward the center instead of making large sudden movements.
+
+This demonstrated that the feedback loop was functioning correctly and that the proportional controller could continuously correct the ball position based on the measured distance.
+
 ## Notes
 
 - The project uses a 100 MHz system clock.
