@@ -38,7 +38,7 @@ module BallBeamTop(
         .Result(Result)
     );
 
-    // PID/Proportional controller
+    // controller
     Controller ctrl(
         .CLK(CLK100MHZ),
         .AutoMode(~SW[15]),
